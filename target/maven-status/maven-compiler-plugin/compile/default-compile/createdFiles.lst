@@ -1,5 +1,0 @@
-com\vnexos\sema\module\language\controller\LanguageController.class
-com\vnexos\sema\module\language\data\Language.class
-com\vnexos\sema\module\language\LanguageModuleMain.class
-com\vnexos\sema\module\language\repository\ILanguageRepository.class
-com\vnexos\sema\module\language\controller\TestObject.class
