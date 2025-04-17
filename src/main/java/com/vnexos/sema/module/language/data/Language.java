@@ -8,7 +8,7 @@ import com.vnexos.sema.database.helpers.DefaultEntity;
 
 @Entity(tableName = "languages")
 public class Language extends DefaultEntity {
-  @Column(nullable = false, length = 10)
+  @Column(nullable = false, length = 10, unique = true)
   private String code;
   
   @Column(nullable = false)
