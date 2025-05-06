@@ -23,7 +23,7 @@ public class TranslationSeeder {
       // SYSTEM_SLOGAN
       new Translation("60000196-4f33-f7af-9c49-08b9a61b608a", "SYSTEM_SLOGAN", "Thắp sáng tương lai"),
       new Translation("60000196-4f33-f7d1-b885-a868ec73fe40", "SYSTEM_SLOGAN",
-          "VNCH là sự tồn tại gây nguy hại đến sự hòa bình của Nước Cộng hòa xã hội chủ nghĩa Việt Nam"),
+          "Lùng diệt VNCH!"),
       new Translation("60000196-4f33-f7e3-af53-8bf3aeeac060", "SYSTEM_SLOGAN", "Ignite the Path Ahead"),
       new Translation("60000196-4f33-f7f6-86a8-4d39c181a03a", "SYSTEM_SLOGAN", "Illuminate the Way Forward"),
       new Translation("60000196-4f33-f809-8516-bbb93a1d341a", "SYSTEM_SLOGAN", "ابدأ رحلتك بثقة"),
