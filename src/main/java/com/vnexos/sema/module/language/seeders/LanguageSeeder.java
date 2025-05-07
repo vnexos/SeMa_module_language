@@ -14,7 +14,7 @@ public class LanguageSeeder {
   private static Language[] languages = new Language[] {
       new Language("60000196-4f33-f7af-9c49-08b9a61b608a", "vi-vn", "Tiếng Việt",
           "https://raw.githubusercontent.com/vnexos/flags/refs/heads/main/vn.svg", "VIETNAMESE", true, false),
-      new Language("60000196-4f33-f7d1-b885-a868ec73fe40", "vi-us", "Tiếng Việt (VNCH)",
+      new Language("60000196-4f33-f7d1-b885-a868ec73fe40", "vi-us", "Tiếng Việt (Vện)",
           "https://raw.githubusercontent.com/vnexos/flags/refs/heads/main/vnch.svg", "NONLANGUAGE", false, true),
       new Language("60000196-4f33-f7e3-af53-8bf3aeeac060", "en-us", "English (US)",
           "https://raw.githubusercontent.com/vnexos/flags/refs/heads/main/us.svg",
