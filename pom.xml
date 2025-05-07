@@ -8,11 +8,11 @@
     <version>1.0</version>
     <relativePath>../../pom.xml</relativePath>
   </parent>
-  
+
   <groupId>com.vnexos.sema.module</groupId>
   <artifactId>language</artifactId>
   <packaging>jar</packaging>
-  
+
   <dependencies>
     <dependency>
       <groupId>com.vnexos.sema</groupId>
@@ -21,7 +21,7 @@
       <classifier>lib</classifier>
     </dependency>
   </dependencies>
-  
+
   <build>
     <finalName>language</finalName>
   </build>
