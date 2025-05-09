@@ -46,6 +46,27 @@ public class TranslationSeeder {
       new Translation("60000196-4f33-f7f6-86a8-4d39c181a03a", "SYSTEM_NAVBAR_ABOUT", "About"),
       new Translation("60000196-4f33-f809-8516-bbb93a1d341a", "SYSTEM_NAVBAR_ABOUT", "من نحن"),
       new Translation("60000196-4f33-f81a-ac04-de7e95eada64", "SYSTEM_NAVBAR_ABOUT", "אודות"),
+      // SYSTEM_GENDER_
+      new Translation("60000196-4f33-f7af-9c49-08b9a61b608a", "SYSTEM_GENDER_MALE", "Nam"),
+      new Translation("60000196-4f33-f7e3-af53-8bf3aeeac060", "SYSTEM_GENDER_MALE", "Male"),
+      new Translation("60000196-4f33-f7f6-86a8-4d39c181a03a", "SYSTEM_GENDER_MALE", "Male"),
+      new Translation("60000196-4f33-f809-8516-bbb93a1d341a", "SYSTEM_GENDER_MALE", "ذكر"),
+      new Translation("60000196-4f33-f81a-ac04-de7e95eada64", "SYSTEM_GENDER_MALE", "זכר"),
+      new Translation("60000196-4f33-f7af-9c49-08b9a61b608a", "SYSTEM_GENDER_FEMALE", "Nữ"),
+      new Translation("60000196-4f33-f7e3-af53-8bf3aeeac060", "SYSTEM_GENDER_FEMALE", "Female"),
+      new Translation("60000196-4f33-f7f6-86a8-4d39c181a03a", "SYSTEM_GENDER_FEMALE", "Female"),
+      new Translation("60000196-4f33-f809-8516-bbb93a1d341a", "SYSTEM_GENDER_FEMALE", "أنثى"),
+      new Translation("60000196-4f33-f81a-ac04-de7e95eada64", "SYSTEM_GENDER_FEMALE", "נקבה"),
+      new Translation("60000196-4f33-f7af-9c49-08b9a61b608a", "SYSTEM_GENDER_OTHER", "Khác"),
+      new Translation("60000196-4f33-f7e3-af53-8bf3aeeac060", "SYSTEM_GENDER_OTHER", "Other"),
+      new Translation("60000196-4f33-f7f6-86a8-4d39c181a03a", "SYSTEM_GENDER_OTHER", "Other"),
+      new Translation("60000196-4f33-f809-8516-bbb93a1d341a", "SYSTEM_GENDER_OTHER", "آخر"),
+      new Translation("60000196-4f33-f81a-ac04-de7e95eada64", "SYSTEM_GENDER_OTHER", "אחר"),
+      new Translation("60000196-4f33-f7af-9c49-08b9a61b608a", "SYSTEM_GENDER_HIDDEN", "Ẩn giới tính"),
+      new Translation("60000196-4f33-f7e3-af53-8bf3aeeac060", "SYSTEM_GENDER_HIDDEN", "Hide gender"),
+      new Translation("60000196-4f33-f7f6-86a8-4d39c181a03a", "SYSTEM_GENDER_HIDDEN", "Hide gender"),
+      new Translation("60000196-4f33-f809-8516-bbb93a1d341a", "SYSTEM_GENDER_HIDDEN", "הסתר מין"),
+      new Translation("60000196-4f33-f81a-ac04-de7e95eada64", "SYSTEM_GENDER_HIDDEN", "إخفاء الجنس"),
   };
 
   public void seed() {
