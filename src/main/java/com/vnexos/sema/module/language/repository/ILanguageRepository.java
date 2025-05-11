@@ -10,4 +10,6 @@ public interface ILanguageRepository extends DatabaseContext<Language, UUID> {
   public Language update(@ContextId UUID id, String flagUrl);
 
   public Language get(String code);
+
+  public Language getByCode(String code);
 }

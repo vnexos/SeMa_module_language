@@ -15,6 +15,7 @@ import com.vnexos.sema.loader.annotations.HttpGet;
 import com.vnexos.sema.loader.annotations.HttpPatch;
 import com.vnexos.sema.loader.annotations.HttpPost;
 import com.vnexos.sema.loader.interfaces.ControllerBase;
+import com.vnexos.sema.module.language.LanguageModuleMain;
 import com.vnexos.sema.module.language.data.Language;
 import com.vnexos.sema.module.language.data.Translation;
 import com.vnexos.sema.module.language.dto.LanguageCreateDto;
@@ -46,9 +47,10 @@ public class LanguageController extends ControllerBase {
   @HttpGet("{code}")
   public ApiResponse<?> getLanguageById(@FromRoute String code) {
     try {
-      Language language = languageRepository.get(code);
+      Language language = languageRepository.getByCode(code);
       return createOk(language);
     } catch (Exception ex) {
+      LanguageModuleMain.context.log(ex);
       return createInternalRequest("Lỗi xãy ra trong quá trình lấy 1 ngôn ngữ");
     }
   }
