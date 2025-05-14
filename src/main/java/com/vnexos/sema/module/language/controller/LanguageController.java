@@ -5,7 +5,6 @@ import java.util.Map;
 import java.util.UUID;
 
 import com.vnexos.sema.ApiResponse;
-import com.vnexos.sema.loader.Part;
 import com.vnexos.sema.loader.annotations.AutoWired;
 import com.vnexos.sema.loader.annotations.Controller;
 import com.vnexos.sema.loader.annotations.FromBody;
@@ -66,11 +65,10 @@ public class LanguageController extends ControllerBase {
   }
 
   @HttpPatch("{id}")
-  public ApiResponse<?> updateLanguage(@FromRoute UUID id, @FromBody LanguageUpdateDto request, @FromBody Part file) {
+  public ApiResponse<?> updateLanguage(@FromRoute UUID id, @FromBody LanguageUpdateDto request) {
     try {
       System.out.println(id);
       Language language = languageRepository.update(id, request.getFlagUrl());
-      System.out.println(file.getFileName());
       return createOk(language);
     } catch (Exception ex) {
       return createInternalRequest("Lỗi xãy ra trong quá trình cập nhật.");
@@ -81,7 +79,6 @@ public class LanguageController extends ControllerBase {
   public ApiResponse<?> deleteLanguage(@FromRoute UUID id) {
     try {
       Language language = languageRepository.delete(id);
-      System.out.println(id.getClass());
       return createOk(language);
     } catch (Exception ex) {
       return createInternalRequest("Lỗi xãy ra trong quá trình xóa.");
